@@ -1,1 +1,43 @@
+---
+title: "Syringe Pump"
+excerpt: "in collaboration with Dzifa Dumenyo, Ethan Smiley, and Fae Katras."
+header:
+  image: /assets/img/Cyber-Scooter-Banner.jpg
+  teaser: /assets/img/Cyber-Scooter-TH.jpg
+gallery:
+  - url: /assets/img/Cyber-Scooter-1.jpg
+    image_path: assets/img/Cyber-Scooter-1.jpg
+    alt: "placeholder image 1"
+  - url: /assets/img/Cyber-Scooter-2.jpg
+    image_path: assets/img/Cyber-Scooter-2.jpg
+    alt: "placeholder image 2"
+  - url: /assets/img/Cyber-Scooter-3.jpg
+    image_path: assets/img/Cyber-Scooter-3.jpg
+    alt: "placeholder image 3"
+---
+
+### WHAT:  
+a fully automated, user-friendly syringe pump that can be manufactured at a low cost.
+### WHY:  
+this simple but effective device is essential to the healthcare industry. If needed, this design can be replicated quickly for emergency/low cost use.
+### HOW:  
+basic components (stepper motor, lead screw, potentiometer, Arduino) used in a cohesive design in combination with 3D printed pieces.
+
+### Skills developed:  
+CAD & dimensioned drawings (Fusion 360), programming (C++), wiring & soldering, iterative design
+
+### Features include:  
+* Nema 17 stepper motor coupled to an 8mm lead screw
+* custon 3D printed PLA syringe holders driven by the stepper motor on the lead screw
+* 200 mm linear rod to stabilize syringe pump
+* Latching button to start, pause, and resume actuation
+* Potentiometer that adjusts flow rate (0.08 to 4 mL per min)
+* LED to indicate syringe state (full, paused, empty)
+* LCD showing flow rate and time until empty
+* Limit switch used to stop actuation when syringe is empty
+* Arduino Uno and A4988 stepper driver controlling stepper motor from inputs
+* powered by Mean Well RQ-65D AC-DC power supply
+* custom 3D printed PLA base with a sliding lid, enclosing all electrical components
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
