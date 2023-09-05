@@ -44,4 +44,4 @@ June 2020 - August 2020
 August 2018 - May 2021
 
 
-<img src="assets/img/square_headshot.jpeg" alt="Nicole Yeh" style="width:200px;"/>
+<img src="/assets/img/square_headshot.jpeg" alt="Nicole Yeh" style="width:200px;"/>
