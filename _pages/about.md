@@ -9,11 +9,11 @@ I am a third-year engineering undergraduate with experience in CAD, 3D printing,
 ## Education
 
 ### Vanderbilt University
-  BE Mechanical Engineering, Minor in Digital Fabrication
+  BE Mechanical Engineering, Minor in Digital Fabrication  
   Expected May 2025
 
 ### Da Vinci Science High School
-  Mechanical Engineering pathway
+  Mechanical Engineering pathway  
   2021
 
 
