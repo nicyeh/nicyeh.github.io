@@ -39,5 +39,10 @@ CAD & dimensioned drawings (Fusion 360), programming (C++), wiring & soldering, 
 * powered by Mean Well RQ-65D AC-DC power supply
 * custom 3D printed PLA base with a sliding lid, enclosing all electrical components
 
+### CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH35dfcQT936092f0e438cdf6d181a387965?mode=embed" 
+width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
