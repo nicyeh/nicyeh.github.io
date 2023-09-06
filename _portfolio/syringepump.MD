@@ -79,9 +79,5 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 Find Arduino Uno code [here.](github.com/nicyeh/assets/syringepump-code)
 
 ### Drawings:
-<img src="/assets/img/drawing 1" alt="drawing 1" style="width:200px;"/>
-<img src="/assets/img/drawing 2" alt="drawing 2" style="width:200px;"/>
-<img src="/assets/img/drawing 3" alt="drawing 3" style="width:200px;"/>
-<img src="/assets/img/drawing 4" alt="drawing 4" style="width:200px;"/>
-<img src="/assets/img/drawing 5" alt="drawing 5" style="width:200px;"/>
-<img src="/assets/img/drawing 6" alt="drawing 6" style="width:200px;"/>
+<img src="/assets/img/drawing 1" alt="drawing 1" style="width:200px;"/> <img src="/assets/img/drawing 2" alt="drawing 2" style="width:200px;"/> <img src="/assets/img/drawing 3" alt="drawing 3" style="width:200px;"/>
+<img src="/assets/img/drawing 4" alt="drawing 4" style="width:200px;"/> <img src="/assets/img/drawing 5" alt="drawing 5" style="width:200px;"/> <img src="/assets/img/drawing 6" alt="drawing 6" style="width:200px;"/>
