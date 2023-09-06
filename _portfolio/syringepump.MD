@@ -47,19 +47,19 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 
 ## Parts Guide:
 ### Off-the-shelf Parts:
-| Part  | Quantity |
-| ------------- | ------------- |
-| Nema 17 stepper motor  | 1  |
-| 8mm lead screw  | 1  |
-| 200 mm linear rod  | 1  |
-| Latching button  | 1  |
-| Potentiometer  | 1  |
-| LED  | 1  |
-| LCD  | 1  |
-| Limit Switch  | 1  |
-| Arduino Uno  | 1  |
-| A4988 stepper driver  | 1  |
-| Mean Well RQ-65D AC-DC power supply  | 1  |
+| Part  | Quantity |  
+| ------------- | ------------- |  
+| Nema 17 stepper motor  | 1  |  
+| 8mm lead screw  | 1  |  
+| 200 mm linear rod  | 1  |  
+| Latching button  | 1  |  
+| Potentiometer  | 1  |  
+| LED  | 1  |  
+| LCD  | 1  |  
+| Limit Switch  | 1  |  
+| Arduino Uno  | 1  |  
+| A4988 stepper driver  | 1  |  
+| Mean Well RQ-65D AC-DC power supply  | 1  |  
 
 ### 3D printed parts:
 | Part  | Quantity |
@@ -79,6 +79,9 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 Find Arduino Uno code [here.](github.com/nicyeh/assets/syringepump-code)
 
 ### Drawings:
-<img src="/assets/img/drawing_1" alt="drawing 1" style="width:200px;"/>
-<img src="/assets/img/drawing_2" alt="drawing 2" style="width:200px;"/>
-<img src="/assets/img/drawing_3" alt="drawing 3" style="width:200px;"/>
+<img src="/assets/img/drawing 1" alt="drawing 1" style="width:200px;"/>
+<img src="/assets/img/drawing 2" alt="drawing 2" style="width:200px;"/>
+<img src="/assets/img/drawing 3" alt="drawing 3" style="width:200px;"/>
+<img src="/assets/img/drawing 4" alt="drawing 4" style="width:200px;"/>
+<img src="/assets/img/drawing 5" alt="drawing 5" style="width:200px;"/>
+<img src="/assets/img/drawing 6" alt="drawing 6" style="width:200px;"/>
