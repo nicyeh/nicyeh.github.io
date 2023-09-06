@@ -1,26 +1,27 @@
 ---
-title: "Example Web Page"
+title: "Nicole Yeh Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: assets/img/nashville sky.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "I am a third-year engineering undergraduate with experience in CAD, 3D printing, subtractive manufacturing, iterative design, and technical communication through individual projects. I am a positive problem-solver and quick learner seeking to gain real-world experience."
+
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
+  - image_path: assets/img/SP full.jpeg
+    alt: "Syringe Pump"
+    title: "Syringe Pump"
+    excerpt: "a fully automated, user-friendly syringe pump that can be manufactured at a low cost"
+  - image_path: assets/img/vise grips.png
     alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    title: "Low-profile vise grips"
+    excerpt: "designed for the Bantam desktop mill"
+  - image_path: assets/img/phone case.png
+    title: "3D printed phone case"
+    excerpt: "custom designed with guitar pick holder "
 ---
 
 {% include feature_row %}
