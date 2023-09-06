@@ -16,6 +16,8 @@ gallery:
     alt: "placeholder image 3"
 ---
 
+{% include gallery caption="Large Format 3D Printer Gallery" %}
+
 ### WHAT:  
 a fully automated, user-friendly syringe pump that can be manufactured at a low cost.
 ### WHY:  
