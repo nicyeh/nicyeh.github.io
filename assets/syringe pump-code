@@ -1,0 +1,143 @@
+#include <AccelStepper.h>
+#include <LiquidCrystal.h>
+AccelStepper stepper(AccelStepper::DRIVER, 8, 9);
+float sensorValue = 0;
+float flowRateMstPerS = 0;
+int timeLeft = 0;
+int secToEmpty;
+int start_button = 12;
+int red_LED_pin = A3;
+int blue_LED_pin = A1;
+int green_LED_pin = A2;
+int end_switch = 7;
+float fs = 0;
+float minFlow = -.9;
+float maxFlow = .9;
+float mL20syringe = 0.000632911;
+float mL5syringe = 0.00025;
+float mL20syringeA = 287.4;
+float mL5syringeA = 114.04;
+float area;
+float mLperms;//
+int timepassed = 0;  // increments milliseconds spent running motor
+int t1;
+int t2;
+float syringe20Len = 79;
+float syringe5Len = 50;
+float syringeLen;
+float syringe = true; //true of 20mL syringe make false if 5mL inserted
+LiquidCrystal lcd(11, 6, 5, 4, 3, 2);
+
+void setup(){
+  if (syringe == true) {
+    mLperms = mL20syringe;
+    syringeLen = syringe20Len;
+    area = mL20syringeA;
+  } else {
+    mLperms = mL5syringe;
+    syringeLen = syringe5Len;
+    area = mL5syringeA;
+  }
+  analogWrite(10, 100); 
+// Generate PWM signal at pin D10, value of 100 (out of 255){
+  Serial.begin(9600);
+  pinMode(red_LED_pin, OUTPUT);
+  pinMode(blue_LED_pin, OUTPUT);
+  pinMode(green_LED_pin, OUTPUT);
+  pinMode(start_button, INPUT_PULLUP);
+  pinMode(end_switch, INPUT_PULLUP);
+  pinMode(A0, INPUT);
+
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  delay(2000);
+
+  stepper.setMaxSpeed(1000);
+  stepper.setAcceleration(500); //set acceleration rate (steps/s^2)
+  stepper.setSpeed(0);
+}
+
+float fmap(float x, float in_min, float in_max, float out_min, float out_max){ 
+return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
+void loop() {
+  secToEmpty = syringeLen * (3200 / 8) * (1 / flowRateMstPerS );
+  t1 = millis(); // initialize start time for timeleft calculation
+
+  if ((digitalRead(end_switch) == LOW) && ((digitalRead(start_button) == LOW))) {
+    analogWrite(red_LED_pin, 0);
+    analogWrite(green_LED_pin, 255);
+    analogWrite(blue_LED_pin, 0);
+
+    //check potentiometer
+    sensorValue = analogRead(A0);
+
+    //convert from mL/min to steps/second
+    fs = fmap(sensorValue, 0.00, 1023.00, minFlow, maxFlow); 
+    // fs = ml per min
+    flowRateMstPerS = (fs / 60) / mLperms*1600; 
+    // flowRateMstPerS = microsteps per second
+    flowRateMstPerS = fs / 60 * 1000 / area * 3200 / 8; 
+    // flowRateMstPerS = microsteps per second
+
+    //set the motor speed and run motor
+    stepper.setSpeed(-flowRateMstPerS);
+    stepper.runSpeed();
+
+    t2 = millis();
+    timepassed += (t2 - t1);
+    timeLeft = secToEmpty - (timepassed / 1000);
+
+    // update speed and timeleft every 1/18th of a rotation.
+    if ((stepper.currentPosition() % 20) == 0) {
+      Serial.print("flow rate: ");
+      Serial.println(fs);
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Flow Rate: ");
+      lcd.setCursor(4, 0);
+      lcd.print(fs);
+      lcd.setCursor(0, 1);
+      lcd.print("Time Left: ");
+      lcd.setCursor(4, 1);
+      lcd.print(timeLeft);
+    }
+  } else {
+    t1 = millis(); 
+    if (digitalRead(end_switch) == HIGH) {
+      analogWrite(red_LED_pin, 255);
+      analogWrite(green_LED_pin, 0);
+      analogWrite(blue_LED_pin, 0);
+
+      sensorValue = analogRead(A0);
+      //convert from mL/min to steps/second
+      fs = fmap(sensorValue, 0.00, 1023.00, minFlow, maxFlow); 
+      // fs = ml per min
+      //flowRateMstPerS = (fs / 60) / mLperms*1600; 
+      // flowRateMstPerS = microsteps per second
+      flowRateMstPerS = fs / 60 * 1000 / area * 3200 / 8; 
+      // flowRateMstPerS = microsteps per second
+
+      if (flowRateMstPerS < 0) {
+        //set the motor speed and run motor
+        stepper.setSpeed(-flowRateMstPerS);
+        stepper.runSpeed();
+      }
+
+    } else {
+      analogWrite(red_LED_pin, 0);
+      analogWrite(green_LED_pin, 0);
+      analogWrite(blue_LED_pin, 255);
+    }
+    if ((millis() % 1000) == 0) {
+      lcd.print("Flow Rate: ");
+      lcd.setCursor(4, 0);
+      lcd.print("0");
+      lcd.setCursor(0, 1);
+      lcd.print("Time Left: ");
+      lcd.setCursor(4, 1);
+      lcd.print(timeLeft);
+    }
+  }
+}
