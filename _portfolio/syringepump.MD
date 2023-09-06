@@ -3,7 +3,7 @@ title: "Syringe Pump"
 excerpt: "in collaboration with Dzifa Dumenyo, Ethan Smiley, and Fae Katras."
 header:
   image: /assets/img/SP top.jpeg
-  teaser: /assets/img/Cyber-Scooter-TH.jpg
+  teaser: /assets/img/SP top.jpeg
 gallery:
   - url: /assets/img/SP full.jpeg
     image_path: assets/img/SP full.jpeg
