@@ -19,31 +19,27 @@ I am a third-year engineering undergraduate with experience in CAD, 3D printing,
 
 ## Technical Skills
 
-✓ SolidWorks
-✓ CATIA
-✓ AutoCAD
-✓ Fusion360
-✓ Python  
-✓ LabVIEW
-✓ MATLAB
-✓ GD&T
-✓ Iterative design
-✓ CNC machining  
-✓ Microsoft Office Suite
-✓ Microsoft Project
+✓ SolidWorks ✓ CATIA ✓ AutoCAD ✓ Fusion360  
+✓ Python ✓ LabVIEW ✓ MATLAB  
+✓ GD&T ✓ Iterative design ✓ CNC machining  
+✓ Microsoft Office Suite ✓ Microsoft Project
+
+### Digital Fabrication Tools:
+* Fused Filament Fabrication
+
 
 ## Work Experience
 
 ### Vanderbilt University’s Digital Fabrication Lab
-#### Nashville TN
+Nashville TN
 December 2021 - Present
 
 ### Boeing Aerospace Company
-#### El Segundo CA
+El Segundo CA
 June 2020 - August 2020
 
 ### First Robotics Competition Team 4201
-#### El Segundo, CA
+El Segundo, CA
 August 2018 - May 2021
 
 
