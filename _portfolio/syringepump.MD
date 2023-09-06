@@ -8,11 +8,11 @@ gallery:
   - url: /assets/img/SP full.jpeg
     image_path: assets/img/SP full.jpeg
     alt: "placeholder image 1"
-  - url: /assets/img/SP coupler.jpeg
-    image_path: assets/img/SP coupler.jpeg
+  - url: /assets/img/SP controls.jpg
+    image_path: assets/img/SP controls.jpg
     alt: "placeholder image 2"
-  - url: /assets/img/SP controls.jpeg
-    image_path: assets/img/SP controls.jpeg
+  - url: /assets/img/SP coupler.jpg
+    image_path: assets/img/SP coupler.jpg
     alt: "placeholder image 3"
 ---
 
