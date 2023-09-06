@@ -79,7 +79,7 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 4. Press button to start, pause, or stop the flow
 
 
-### Find Arduino Uno code [here.](nicyeh.github.io/assets/syringe pump-code)
+### Find Arduino Uno code [here.](/assets/syringe pump-code)
 
 ### Drawings:
 <img src="/assets/img/drawing 1.png" alt="drawing 1" style="width:800px;"/>
