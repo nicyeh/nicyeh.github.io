@@ -68,7 +68,8 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 | Motor mount (ABS) | 1  |
 
 
-### 
+### How to operate:  
+Press 
 
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
