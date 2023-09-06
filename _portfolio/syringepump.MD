@@ -2,21 +2,21 @@
 title: "Syringe Pump"
 excerpt: "in collaboration with Dzifa Dumenyo, Ethan Smiley, and Fae Katras."
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
+  image: /assets/img/SP top.jpeg
   teaser: /assets/img/Cyber-Scooter-TH.jpg
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
+  - url: /assets/img/SP full.jpeg
+    image_path: assets/img/SP full.jpeg
     alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
+  - url: /assets/img/SP coupler.jpeg
+    image_path: assets/img/SP coupler.jpeg
     alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: /assets/img/SP controls.jpeg
+    image_path: assets/img/SP controls.jpeg
     alt: "placeholder image 3"
 ---
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Syringe Pump gallery" %}
 
 ### WHAT:  
 a fully automated, user-friendly syringe pump that can be manufactured at a low cost.
