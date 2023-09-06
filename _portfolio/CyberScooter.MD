@@ -51,7 +51,7 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 
 ## Parts Guide:
 ### Off-the-shelf Parts:
-| Material  | Quantity |
+| Part  | Quantity |
 | ------------- | ------------- |
 | Nema 17 stepper motor  | 1  |
 | 8mm lead screw  | 1  |
@@ -66,10 +66,10 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 | Mean Well RQ-65D AC-DC power supply  | 1  |
 
 ### 3D printed parts:
-| Material  | Quantity |
+| Part  | Quantity |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Content Cell  | 1  |
+| Content Cell  | 1  |
 
 ### 
 
