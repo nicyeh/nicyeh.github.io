@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Nicole Yeh"
 title_separator          : "-"
 subtitle                 : "Portfolio"
-name                     : &name "name" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Nicole Yeh" # &name is a YAML anchor which can be *referenced later
 description              : &description "description w space "
 url                      : https://nicyeh.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
