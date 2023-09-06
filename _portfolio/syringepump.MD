@@ -74,6 +74,6 @@ width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" moz
 3. Adjust potentiometer to desired flow rate as indicated on LCD  
 4. Press button to start, pause, or stop the flow
 
-### Arduino Uno code[assets/syringe pump-code]
+### [Arduino Uno code](assets/syringe pump-code)
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
