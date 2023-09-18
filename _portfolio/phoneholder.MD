@@ -26,7 +26,13 @@ bike
 components modeled int a top-down assembly
 
 ## Skills developed:  
-CAD (Fusion 360), 3D printing, iterative design
+CAD (Fusion 360), top-down modeling, 3D printing, iterative design
+
+## Top-Down Modeling
+  (what is it? how was it leveraged?)
+## Design Rationale
+## Assembly
+## Material Choice
 
 ## CAD Model:
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ed4dc39744e3932e8?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
