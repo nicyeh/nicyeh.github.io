@@ -2,28 +2,28 @@
 title: "Phone mount for bike handlebars"
 excerpt: ""
 header:
-  image: /assets/img/SP top.jpeg
-  teaser: /assets/img/SP top.jpeg
+  image: /assets/img/ph_top_down.png
+  teaser: /assets/img/ph_top_down.png
 gallery:
-  - url: /assets/img/SP mount.jpeg
-    image_path: assets/img/SP mount.jpeg
+  - url: assets/img/ph_full.png
+    image_path: assets/img/ph_full.png
     alt: "placeholder image 1"
-  - url: /assets/img/SP controls.jpg
-    image_path: assets/img/SP controls.jpg
+  - url: assets/img/ph_use1.png
+    image_path: assets/img/ph_use1.png
     alt: "placeholder image 2"
-  - url: /assets/img/SP coupler.jpg
-    image_path: assets/img/SP coupler.jpg
+  - url: /assets/img/ph_open.png
+    image_path: assets/img/ph_open.png
     alt: "placeholder image 3"
 ---
 
 {% include gallery caption="Phone Holder gallery" %}
 
 ### WHAT:  
-a phone holder
+a phone holder that securely mounts on bike handlebars and can display phone vertically or horizontally.
 ### WHY:  
-bike
+need a quick and reliable way to hold and view smartphone while riding a bike.
 ### HOW:  
-components modeled int a top-down assembly
+4 components modeled int a top-down assembly and 3D printed with PLA, fastened with screws and heat set inserts.
 
 ## Skills developed:  
 CAD (Fusion 360), top-down modeling, 3D printing, iterative design
