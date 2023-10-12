@@ -1,6 +1,6 @@
 ---
 title: "Print-in-Place Pliers"
-excerpt: "good"
+excerpt: "October 2023"
 header:
   image: /assets/img/plier cover.jpeg
   teaser: /assets/img/plier cover.jpeg
@@ -11,14 +11,14 @@ gallery:
   - url: /assets/img/plier open.jpeg
     image_path: assets/img/plier open.jpeg
     alt: "placeholder image 2"
-  - url: /assets/img/plier close.jpg
-    image_path: assets/img/plier close.jpg
+  - url: /assets/img/plier close.jepg
+    image_path: assets/img/plier close.jepg
     alt: "placeholder image 3"
 ---
 
 Print-in-place is a method of 3D printing that creates a complete, moveable part right off of the print bed. Multiple components are printed in their assembled configuration, allowing for complicated products to be created quickly and with little waste. Other print-in-place objects include hinges, articulating toys, and latching mechanisms.
 
-<img src="/assets/img/pl.gif" alt="pliers gif" style="width:800px;"/>
+<img src="/assets/img/plier.gif" alt="pliers gif" style="width:800px;"/>
 
 This pair of print-in-place pliers was created as four separate components made of PLA and TPU. Due to a lack of availabiltiy of the dual-extruder printer, This design was produced in two separate print batches according to the filament material, and the final product was subsequently assembled. However, this print can easily be modified and printed all at once on a dual extruder.
 
@@ -38,6 +38,8 @@ This spring compression fits into slots on either plier arm and compresses when 
 <img src="/assets/img/plier iterations.jpeg" alt="pliers gif" style="width:800px;"/>
 
 Three iterations were required to get to this final product. The first (left) was created with minimal prior knowledge about plier geometry and served to help me more accurately scale the pliers to comfortable propotions. There were no connections or spring components. The second iteration (middle) solidified the base geometry and tested added a spring component and joint for the two arms. This design was a useful size and angle for holding, however the joint was not secure enough and the spring did not fit in its slots. The third and final iteration (right) kept the same basic geometry but utilized a larger TPU spring insert. A TPU band was also added around a larger swivel joint to further reinforce it for when pressure is applied to the handles. These modifications helped to produce a fully functional final pair of pliers.
+
+If a further iteration were to be created, I would focus on improving the stability of the swivel joint. There is a lot of force that causes twisting between the two arms. This is mostly mitigated by the band around the two pieces but there is still some twisting within the band. I would add a fifth component that would rigidly constrain the path of the pliers' arms.
 
 ## Specifications
 
