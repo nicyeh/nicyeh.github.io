@@ -26,9 +26,10 @@ This pair of print-in-place pliers was created as four separate components made 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e30b7e56fd334952a?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## About the design
-The final product has three components: two interlocking PLA plier arms, a TPU spring, and a TPU band keeping the PLA joint together.
 
 <img src="/assets/img/plier pieces.jpeg" alt="pliers gif" style="width:800px;"/>
+
+The final product has three components: two interlocking PLA plier arms, a TPU spring, and a TPU band keeping the PLA joint together.
 
 {% include gallery caption="Plier spring in both open and closed position." %}
 
