@@ -11,8 +11,8 @@ gallery:
   - url: /assets/img/plier open.jpeg
     image_path: assets/img/plier open.jpeg
     alt: "placeholder image 2"
-  - url: /assets/img/plier close.jepg
-    image_path: assets/img/plier close.jepg
+  - url: assets/img/plier close.jpeg
+    image_path: assets/img/plier close.jpeg
     alt: "placeholder image 3"
 ---
 
