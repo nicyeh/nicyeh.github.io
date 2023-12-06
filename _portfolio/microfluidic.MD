@@ -2,19 +2,21 @@
 title: "Microfluidic Device"
 excerpt: "December 2023"
 header:
-  image: /assets/img/plier cover.jpeg
-  teaser: /assets/img/plier cover.jpeg
+  image: /assets/img/mf_total.png
+  teaser: /assets/img/mf_total.png
 gallery:
-  - url: /assets/img/plier insert.jpeg
-    image_path: assets/img/plier insert.jpeg
-    alt: "plier insert"
-  - url: /assets/img/plier open.jpeg
-    image_path: assets/img/plier open.jpeg
-    alt: "placeholder image 2"
+  - url: /assets/img/mf_cad.png
+    image_path: assets/img/mf_cad.png
+    alt: "microfluidic mold CAD"
+  - url: /assets/img/mf_total.png
+    image_path: assets/img/mf_total.png
+    alt: "microfluidic mold"
   - url: assets/img/plier close.jpeg
     image_path: assets/img/plier close.jpeg
     alt: "placeholder image 3"
 ---
+
+
 
 ## Description
 
