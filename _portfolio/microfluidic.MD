@@ -2,10 +2,10 @@
 title: "Microfluidic Device"
 excerpt: "December 2023"
 header:
-  image: /assets/img/microfl_5.png
-  teaser: /assets/img/microfl_5.png
+  image: /assets/img/skate_analysis.png
+  teaser: /assets/img/skate_analysis.png
 gallery:
-  - url: /assets/img/microfl_1.png
+  - url: /assets/img/skate_
     image_path: assets/img/microfl_1.png
     alt: "microfluidic mold"
   - url: /assets/img/microfl_3.png
@@ -32,21 +32,15 @@ The mold for the microfluidic device was printed on a Form 3+ SLA printer. The p
 
 
 ## CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e30b7e56fd334952a?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ee81113fbbbeb1d45?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Multimedia
 {% include gallery caption="microfluidic device as a mold, silicon, and working" %}
 
-<youtube video here>
-<iframe width="315" height="560"
-src="https://youtu.be/gWlWB2crxE8"
-title="Microfluidic Device"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen></iframe>
+<iframe src="https://youtu.be/gWlWB2crxE8" width="315" height="560" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 ## Citations
+
 Microfluidic Mixing: A Review. Int J Mol Sci.12(5): 3263–3287.
 Rapid prototyping of cell culture microdevices using parylene-coated 3D prints Lab Chip, 2021, 21, 4814-4822
