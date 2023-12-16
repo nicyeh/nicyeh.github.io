@@ -2,8 +2,8 @@
 title: "Microfluidic Device"
 excerpt: "December 2023"
 header:
-  image: /assets/img/skate_analysis.png
-  teaser: /assets/img/skate_analysis.png
+  image: /assets/img/microfl_5.png
+  teaser: /assets/img/microfl_5.png
 gallery:
   - url: /assets/img/skate_
     image_path: assets/img/microfl_1.png
