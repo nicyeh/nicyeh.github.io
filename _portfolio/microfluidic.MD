@@ -2,18 +2,18 @@
 title: "Microfluidic Device"
 excerpt: "December 2023"
 header:
-  image: /assets/img/mf_total.png
-  teaser: /assets/img/mf_total.png
+  image: /assets/img/microfl_5.png
+  teaser: /assets/img/microfl_5.png
 gallery:
-  - url: /assets/img/mf_cad.png
-    image_path: assets/img/mf_cad.png
-    alt: "microfluidic mold CAD"
-  - url: /assets/img/mf_total.png
-    image_path: assets/img/mf_total.png
+  - url: /assets/img/microfl_1.png
+    image_path: assets/img/microfl_1.png
     alt: "microfluidic mold"
-  - url: assets/img/plier close.jpeg
-    image_path: assets/img/plier close.jpeg
-    alt: "placeholder image 3"
+  - url: /assets/img/microfl_3.png
+    image_path: assets/img/microfl_3.png
+    alt: "microfluidic device"
+  - url: assets/img/microfl_6.png
+    image_path: assets/img/microfl_6.png
+    alt: "microfluidic device in action"
 ---
 
 
@@ -36,10 +36,15 @@ The mold for the microfluidic device was printed on a Form 3+ SLA printer. The p
 
 
 ## Multimedia
-{% include gallery caption="Plier spring in both open and closed position." %}
-<img src="/assets/img/_____" alt="____" style="width:800px;"/>
-<img src="/assets/img/_____" alt="____" style="width:800px;"/>
+{% include gallery caption="microfluidic device as a mold, silicon, and working" %}
+
 <youtube video here>
+<iframe width="315" height="560"
+src="https://youtu.be/gWlWB2crxE8"
+title="Microfluidic Device"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 
 
 ## Citations
