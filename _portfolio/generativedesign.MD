@@ -18,8 +18,6 @@ gallery:
 
 
 ## Generative Design
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ee81113fbbbeb1d45?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
 The shift toward electric vehicles (EVs) in the automotive landscape has intensified the demand for cutting-edge manufacturing techniques. A transformative synergy between Powder Bed Fusion (PBF) and Generative Design (GD) is emerging as a solution for crafting the body in white (BIW) of electric cars, contributing to the creation of lightweight, structurally optimized components that significantly improve the efficiency and mileage of electric vehicles.
 
 Generative Design assumes a pivotal role in shaping structurally optimized components for the electric vehicle BIW. By integrating specific performance criteria and constraints into generative design algorithms, engineers navigate a vast design space, generating complex geometries that are both lightweight and robust. This ensures that each unit of material serves a purpose, reinforcing the overall strength and safety of the vehicle.
