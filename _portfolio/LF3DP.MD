@@ -2,14 +2,14 @@
 title: "Large Format 3D Printing"
 excerpt: "December 2023"
 header:
-  image: /assets/img/skate_analysis.png
-  teaser: /assets/img/skate_analysis.png
+  image: /assets/img/skate_render.png
+  teaser: /assets/img/skate_render.png
 gallery:
   - url: /assets/img/skate_form,.png
     image_path: assets/img/skate_form.png
     alt: "Skateboard deck design"
-  - url: /assets/img/skate_render.png
-    image_path: assets/img/skate_render.png
+  - url: /assets/img/skate_print.png
+    image_path: assets/img/skate_print.png
     alt: "skateboard deck render"
   - url: assets/img/skate_analysis2.png
     image_path: assets/img/skate_analysis2.png
