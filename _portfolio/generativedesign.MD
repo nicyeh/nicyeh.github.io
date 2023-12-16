@@ -16,6 +16,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
+
 ## Generative Design
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ee81113fbbbeb1d45?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -33,8 +34,10 @@ Electric vehicle platforms, characterized by varying designs and requirements, b
 
 The convergence of 3D printing, particularly Powder Bed Fusion, and Generative Design marks a new era for the automotive industry, particularly within the realm of electric vehicles. The efficient use of materials, coupled with the ability to generate structurally optimized designs, empowers manufacturers to produce lightweight BIW components crucial for enhancing the efficiency and mileage of electric vehicles. As these technologies progress, a future is envisioned where 3D-printed BIW components become a standard, propelling the widespread adoption of electric vehicles that are not only environmentally sustainable but also economically compelling.
 
+
 # Nylon Generative Design Trucks
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6eaab81bc96345edec?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 # Aluminum Generative Design Trucks
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ec17fe062bee67392?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
